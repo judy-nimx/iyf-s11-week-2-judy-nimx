@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact Me</h1>
+            <p>If you would like to get in touch with me, please feel free to reach out through any of the following
+                methods:</p>
+            <ul>
+                <li>Email: <a href="mailto:judywakaba02@gmail.com">judywakaba02@gmail.com</a></li>
+                <li>Phone: <a href="tel:+254115131282">+254115-131282</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/judywakaba"
+                        target="_blank">linkedin.com/in/judywakaba</a></li>
+            </ul>
+            <time datetime="2026-06-15T10:00">I am available for contact from 10:00 AM to 6:00 PM (local time) on
+                weekdays.</time>
+            <h2>Contact me</h2>
+            <form>
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    <br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    <br><br>
+
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                    <br><br>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Write your message here..." minlength="50"
+                        required></textarea>
+
+                    <br><br>
+
+                    <label>
+                        <input type="checkbox" name="newsletter">
+                        Subscribe to Newsletter
+                    </label>
+
+                </fieldset>
+
+                <br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2026
+            My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
